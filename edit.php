@@ -17,7 +17,7 @@ if ( isset($_POST['name']) && isset($_POST['email'])
         header("Location: edit.php?user_id=".$_POST['user_id']);
         return;
     }
-
+//SQL to update the users
     $sql = "UPDATE users SET name = :name,
             email = :email, password = :password
             WHERE user_id = :user_id";
