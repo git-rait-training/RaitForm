@@ -29,7 +29,7 @@ if ( isset($_POST['name']) && isset($_POST['email'])
     header( 'Location: index.php' ) ;
     return;
 }
-//the flash patterns are required.
+
 // Flash pattern
 if ( isset($_SESSION['error']) ) {
     echo '<p style="color:red">'.$_SESSION['error']."</p>\n";
