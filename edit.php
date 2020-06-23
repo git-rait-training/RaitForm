@@ -31,7 +31,7 @@ if ( isset($_POST['name']) && isset($_POST['email'])
     header( 'Location: index.php' ) ;
     return;
 }
-
+//Guardian
 // Guardian: Make sure that user_id is present
 if ( ! isset($_GET['user_id']) ) {
   $_SESSION['error'] = "Missing user_id";
