@@ -36,6 +36,7 @@ if ( isset($_SESSION['error']) ) {
     unset($_SESSION['error']);
 }
 ?>
+//Division to add a new user
 <p>Add A New User</p>
 <form method="post">
 <p>Name:

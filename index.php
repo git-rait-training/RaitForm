@@ -29,4 +29,5 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 }
 ?>
 </table>
+//Link to add a new file
 <a href="add.php">Add New</a>
